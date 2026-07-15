@@ -52,3 +52,8 @@ Thumbs.db
 *.pid
 *.tar
 *.lock.json
+
+# Ignore alternative cloud environment files during the Docker build
+Dockerfile.streamlit
+housing-api-task-def.json
+streamlit-task-def.json
